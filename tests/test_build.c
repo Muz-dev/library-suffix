@@ -87,6 +87,9 @@ static struct
 { ARCHITECTURE_RISCV, ARCH_RISCV_FP_SINGLE, -1, 0, "riscv32f" },
 { ARCHITECTURE_RISCV, ARCH_RISCV_FP_DOUBLE, -1, 1,  "riscv64d" },
 { ARCHITECTURE_RISCV, ARCH_RISCV_FP_DOUBLE, -1, 0, "riscv32d" },
+
+// SPARC
+{ ARCHITECTURE_SPARC, 0, ENDIANNESS_BIG, 0, "sparc" },
 };
 
 static int TestPlatformString( void )
