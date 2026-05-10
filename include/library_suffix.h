@@ -68,10 +68,10 @@ const char *Q_buildarch( void ) RETURNS_NONNULL;
 // <prefix><name>_<os>_<arch>.<ext>
 // where
 // - prefix: widely accepted DLL prefix. Currently only adds "lib" on Android
-// - name:   DLL name, without Intel suffix (like _i?86). You can strip it with COM_StripIntelSuffix
-// - os:     Q_buildos return value, omitted for win32, linux and osx
-// - arch:   Q_buildarch return value, omitted for 32-bit x86 on win32, linux and osx
-// - ext:    widely accepted DLL extension
+// - name:	 DLL name, without Intel suffix (like _i?86). You can strip it with COM_StripIntelSuffix
+// - os:	 Q_buildos return value, omitted for win32, linux and osx
+// - arch:	 Q_buildarch return value, omitted for 32-bit x86 on win32, linux and osx
+// - ext:	 widely accepted DLL extension
 // return value: number of bytes written, excluding null terminator, or -1 on overflow
 int COM_GenerateCommonLibraryName( const char *name, char *out, size_t size );
 

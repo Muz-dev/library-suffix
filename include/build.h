@@ -95,7 +95,7 @@ Then you can use another oneliner to query all variables:
 
 //================================================================
 //
-//           PLATFORM DETECTION CODE
+//			 PLATFORM DETECTION CODE
 //
 //================================================================
 #if defined _WIN32
@@ -160,7 +160,7 @@ Then you can use another oneliner to query all variables:
 
 //================================================================
 //
-//           ENDIANNESS DEFINES
+//			 ENDIANNESS DEFINES
 //
 //================================================================
 
@@ -196,7 +196,7 @@ Then you can use another oneliner to query all variables:
 
 //================================================================
 //
-//           CPU ARCHITECTURE DEFINES
+//			 CPU ARCHITECTURE DEFINES
 //
 //================================================================
 #if defined __x86_64__ || defined _M_X64
