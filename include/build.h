@@ -270,6 +270,7 @@ Then you can use another oneliner to query all variables:
 	#define XASH_SPARC 1
 	#if defined __arch64__
 		#define XASH_64BIT 1
+	#endif
 #else
 	#error "Place your architecture name here! If this is a mistake, try to fix conditions above and report a bug"
 #endif
