@@ -144,8 +144,8 @@ Then you can use another oneliner to query all variables:
 		#define XASH_EMSCRIPTEN 1
 	#elif defined __gnu_hurd__
 		#define XASH_HURD 1
-    #else
-        #error
+	#else
+		#error
 	#endif
 #endif
 
