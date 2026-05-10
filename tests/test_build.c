@@ -90,6 +90,7 @@ static struct
 
 // SPARC
 { ARCHITECTURE_SPARC, 0, ENDIANNESS_BIG, 0, "sparc" },
+{ ARCHITECTURE_SPARC, 0, ENDIANNESS_BIG, 1, "sparc64" }
 };
 
 static int TestPlatformString( void )

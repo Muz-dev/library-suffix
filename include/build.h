@@ -268,6 +268,8 @@ Then you can use another oneliner to query all variables:
 	#define XASH_WASM 1
 #elif defined __sparc__
     #define XASH_SPARC 1
+    #define __arch64__
+		#define XASH_64BIT 1
 #else
 	#error "Place your architecture name here! If this is a mistake, try to fix conditions above and report a bug"
 #endif
