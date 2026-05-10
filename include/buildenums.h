@@ -135,7 +135,7 @@ For more information, please refer to <http://unlicense.org/>
 #elif XASH_WASM
 	#define XASH_ARCHITECTURE ARCHITECTURE_WASM
 #elif XASH_SPARC
-    #define XASH_ARCHITECTURE ARCHITECTURE_SPARC
+	#define XASH_ARCHITECTURE ARCHITECTURE_SPARC
 #else
 	#error
 #endif
